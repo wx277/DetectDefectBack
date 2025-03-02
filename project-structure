@@ -1,0 +1,33 @@
+src/
+├── config/                 // 配置文件
+│   ├── database.ts
+│   └── app.ts
+├── controllers/           // 控制器
+│   ├── userController.ts
+│   ├── imageController.ts
+│   ├── detectionController.ts
+│   └── reportController.ts
+├── models/               // 数据模型
+│   ├── user.ts
+│   ├── image.ts
+│   ├── detection.ts
+│   └── report.ts
+├── services/            // 业务逻辑
+│   ├── userService.ts
+│   ├── imageService.ts
+│   ├── detectionService.ts
+│   └── aiService.ts
+├── middlewares/         // 中间件
+│   ├── auth.ts
+│   ├── error.ts
+│   └── validation.ts
+├── routes/              // 路由
+│   ├── userRoutes.ts
+│   ├── imageRoutes.ts
+│   └── detectionRoutes.ts
+├── utils/              // 工具函数
+│   ├── logger.ts
+│   └── helper.ts
+├── types/              // 类型定义
+│   └── index.ts
+└── app.ts             // 应用入口 
